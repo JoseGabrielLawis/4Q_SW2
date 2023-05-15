@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+	<title>Seatwork 2</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"><style>
+* {
+	text-align: center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center th {
+	padding: 40px;
+}
+
+body {
+background-color: #F88379 ;
+}
+</style></head>
+
+
+<body data-new-gr-c-s-check-loaded="8.906.0" data-gr-ext-installed=""><br><br>
+	<h1>ICT SW#2: Second Converter</h1><br>
+	<h2>History of Seconds</h2>
+	<h5>A second is called a second because it is the second division of the hour by sixty. <br>
+		The word "second" comes from the Latin word "secundus," which means "next in order or rank,"<br> reflecting the unit's place as the next smaller division of time after the minute.
+
+<br><br>
+
+</h5>
+<br>
+<table class="center">
+	<tbody><tr>
+		<th style="background-color:#FAA0A0">Seconds
+			<p><input type="text" id="seconds"></p>
+			<input type="button" class="btn btn-danger" onclick="SecMin()" value="To Minutes">
+			<input type="button" class="btn btn-danger" onclick="SecHr()" value="To Hours">
+			<input type="button" class="btn btn-danger" onclick="SecDt()" value="To Days">
+		</th>
+		<tn-primary onclick="MinDt()" value="To Days">
+		</th>
+	</tr>
+</tbody></table>
+
+</tbody></table>
+
+<script>
+/*1stTable*/
+	function SecMin(){
+		var x, y
+		x = (document.getElementById('seconds').value);
+		y = 60;		
+		alert(x / y);
+	}
+	function SecHr(){
+		var x, y
+		x = (document.getElementById('seconds').value);
+		y = 3600;		
+		alert(x / y);
+	}
+
+	function SecDt(){
+		var x, y 
+		x = (document.getElementById('seconds').value);
+		y = 86400;		
+		alert(x / y);
+	}
+
+</script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
